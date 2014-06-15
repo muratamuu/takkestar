@@ -18,13 +18,30 @@
 		FBE132921942CFE10086D826 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE132901942CFE10086D826 /* Main_iPad.storyboard */; };
 		FBE132951942CFE10086D826 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132941942CFE10086D826 /* TSViewController.m */; };
 		FBE132981942CFE10086D826 /* TSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132971942CFE10086D826 /* TSMyScene.m */; };
-		FBE1329A1942CFE10086D826 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132991942CFE10086D826 /* Spaceship.png */; };
 		FBE1329C1942CFE10086D826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE1329B1942CFE10086D826 /* Images.xcassets */; };
 		FBE132A31942CFE10086D826 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE132A21942CFE10086D826 /* XCTest.framework */; };
 		FBE132A41942CFE10086D826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE132791942CFE10086D826 /* Foundation.framework */; };
 		FBE132A51942CFE10086D826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE1327D1942CFE10086D826 /* UIKit.framework */; };
 		FBE132AD1942CFE10086D826 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBE132AB1942CFE10086D826 /* InfoPlist.strings */; };
 		FBE132AF1942CFE10086D826 /* takkestarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132AE1942CFE10086D826 /* takkestarTests.m */; };
+		FBE132C81942D1260086D826 /* TSBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132B91942D1260086D826 /* TSBalloon.m */; };
+		FBE132C91942D1260086D826 /* TSBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132BB1942D1260086D826 /* TSBullet.m */; };
+		FBE132CA1942D1260086D826 /* TSCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FBE132BC1942D1260086D826 /* TSCommon.c */; };
+		FBE132CB1942D1260086D826 /* TSPatternShooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132BF1942D1260086D826 /* TSPatternShooter.m */; };
+		FBE132CC1942D1260086D826 /* TSRetryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132C11942D1260086D826 /* TSRetryButton.m */; };
+		FBE132CD1942D1260086D826 /* TSShooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132C31942D1260086D826 /* TSShooter.m */; };
+		FBE132CE1942D1260086D826 /* TSStar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132C51942D1260086D826 /* TSStar.m */; };
+		FBE132CF1942D1260086D826 /* TSTakke.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE132C71942D1260086D826 /* TSTakke.m */; };
+		FBE132DD1942D1400086D826 /* back01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D21942D1400086D826 /* back01.jpg */; };
+		FBE132DE1942D1400086D826 /* back02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D31942D1400086D826 /* back02.jpg */; };
+		FBE132DF1942D1400086D826 /* back03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D41942D1400086D826 /* back03.jpg */; };
+		FBE132E01942D1400086D826 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D51942D1400086D826 /* balloon.png */; };
+		FBE132E11942D1400086D826 /* sakura.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D61942D1400086D826 /* sakura.gif */; };
+		FBE132E21942D1400086D826 /* star.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D71942D1400086D826 /* star.atlas */; };
+		FBE132E31942D1400086D826 /* takke1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132D91942D1400086D826 /* takke1.png */; };
+		FBE132E41942D1400086D826 /* takke2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132DA1942D1400086D826 /* takke2.png */; };
+		FBE132E51942D1400086D826 /* takke3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132DB1942D1400086D826 /* takke3.png */; };
+		FBE132E61942D1400086D826 /* takke4.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE132DC1942D1400086D826 /* takke4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +72,38 @@
 		FBE132941942CFE10086D826 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 		FBE132961942CFE10086D826 /* TSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMyScene.h; sourceTree = "<group>"; };
 		FBE132971942CFE10086D826 /* TSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMyScene.m; sourceTree = "<group>"; };
-		FBE132991942CFE10086D826 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		FBE1329B1942CFE10086D826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FBE132A11942CFE10086D826 /* takkestarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takkestarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE132A21942CFE10086D826 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FBE132AA1942CFE10086D826 /* takkestarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "takkestarTests-Info.plist"; sourceTree = "<group>"; };
 		FBE132AC1942CFE10086D826 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FBE132AE1942CFE10086D826 /* takkestarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takkestarTests.m; sourceTree = "<group>"; };
+		FBE132B81942D1260086D826 /* TSBalloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBalloon.h; sourceTree = "<group>"; };
+		FBE132B91942D1260086D826 /* TSBalloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBalloon.m; sourceTree = "<group>"; };
+		FBE132BA1942D1260086D826 /* TSBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBullet.h; sourceTree = "<group>"; };
+		FBE132BB1942D1260086D826 /* TSBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBullet.m; sourceTree = "<group>"; };
+		FBE132BC1942D1260086D826 /* TSCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TSCommon.c; sourceTree = "<group>"; };
+		FBE132BD1942D1260086D826 /* TSCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCommonDefine.h; sourceTree = "<group>"; };
+		FBE132BE1942D1260086D826 /* TSPatternShooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPatternShooter.h; sourceTree = "<group>"; };
+		FBE132BF1942D1260086D826 /* TSPatternShooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPatternShooter.m; sourceTree = "<group>"; };
+		FBE132C01942D1260086D826 /* TSRetryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRetryButton.h; sourceTree = "<group>"; };
+		FBE132C11942D1260086D826 /* TSRetryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRetryButton.m; sourceTree = "<group>"; };
+		FBE132C21942D1260086D826 /* TSShooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSShooter.h; sourceTree = "<group>"; };
+		FBE132C31942D1260086D826 /* TSShooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSShooter.m; sourceTree = "<group>"; };
+		FBE132C41942D1260086D826 /* TSStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStar.h; sourceTree = "<group>"; };
+		FBE132C51942D1260086D826 /* TSStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStar.m; sourceTree = "<group>"; };
+		FBE132C61942D1260086D826 /* TSTakke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTakke.h; sourceTree = "<group>"; };
+		FBE132C71942D1260086D826 /* TSTakke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTakke.m; sourceTree = "<group>"; };
+		FBE132D21942D1400086D826 /* back01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back01.jpg; sourceTree = "<group>"; };
+		FBE132D31942D1400086D826 /* back02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back02.jpg; sourceTree = "<group>"; };
+		FBE132D41942D1400086D826 /* back03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back03.jpg; sourceTree = "<group>"; };
+		FBE132D51942D1400086D826 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		FBE132D61942D1400086D826 /* sakura.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sakura.gif; sourceTree = "<group>"; };
+		FBE132D71942D1400086D826 /* star.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = star.atlas; sourceTree = "<group>"; };
+		FBE132D91942D1400086D826 /* takke1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke1.png; sourceTree = "<group>"; };
+		FBE132DA1942D1400086D826 /* takke2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke2.png; sourceTree = "<group>"; };
+		FBE132DB1942D1400086D826 /* takke3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke3.png; sourceTree = "<group>"; };
+		FBE132DC1942D1400086D826 /* takke4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +134,7 @@
 		FBE1326D1942CFE10086D826 = {
 			isa = PBXGroup;
 			children = (
+				FBE132D01942D1400086D826 /* data */,
 				FBE132811942CFE10086D826 /* takkestar */,
 				FBE132A81942CFE10086D826 /* takkestarTests */,
 				FBE132781942CFE10086D826 /* Frameworks */,
@@ -123,6 +166,22 @@
 		FBE132811942CFE10086D826 /* takkestar */ = {
 			isa = PBXGroup;
 			children = (
+				FBE132B81942D1260086D826 /* TSBalloon.h */,
+				FBE132B91942D1260086D826 /* TSBalloon.m */,
+				FBE132BA1942D1260086D826 /* TSBullet.h */,
+				FBE132BB1942D1260086D826 /* TSBullet.m */,
+				FBE132BC1942D1260086D826 /* TSCommon.c */,
+				FBE132BD1942D1260086D826 /* TSCommonDefine.h */,
+				FBE132BE1942D1260086D826 /* TSPatternShooter.h */,
+				FBE132BF1942D1260086D826 /* TSPatternShooter.m */,
+				FBE132C01942D1260086D826 /* TSRetryButton.h */,
+				FBE132C11942D1260086D826 /* TSRetryButton.m */,
+				FBE132C21942D1260086D826 /* TSShooter.h */,
+				FBE132C31942D1260086D826 /* TSShooter.m */,
+				FBE132C41942D1260086D826 /* TSStar.h */,
+				FBE132C51942D1260086D826 /* TSStar.m */,
+				FBE132C61942D1260086D826 /* TSTakke.h */,
+				FBE132C71942D1260086D826 /* TSTakke.m */,
 				FBE1328A1942CFE10086D826 /* TSAppDelegate.h */,
 				FBE1328B1942CFE10086D826 /* TSAppDelegate.m */,
 				FBE1328D1942CFE10086D826 /* Main_iPhone.storyboard */,
@@ -131,7 +190,6 @@
 				FBE132941942CFE10086D826 /* TSViewController.m */,
 				FBE132961942CFE10086D826 /* TSMyScene.h */,
 				FBE132971942CFE10086D826 /* TSMyScene.m */,
-				FBE132991942CFE10086D826 /* Spaceship.png */,
 				FBE1329B1942CFE10086D826 /* Images.xcassets */,
 				FBE132821942CFE10086D826 /* Supporting Files */,
 			);
@@ -165,6 +223,40 @@
 				FBE132AB1942CFE10086D826 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBE132D01942D1400086D826 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FBE132D11942D1400086D826 /* back */,
+				FBE132D51942D1400086D826 /* balloon.png */,
+				FBE132D61942D1400086D826 /* sakura.gif */,
+				FBE132D71942D1400086D826 /* star.atlas */,
+				FBE132D81942D1400086D826 /* takke */,
+			);
+			name = data;
+			path = takkestar/data;
+			sourceTree = "<group>";
+		};
+		FBE132D11942D1400086D826 /* back */ = {
+			isa = PBXGroup;
+			children = (
+				FBE132D21942D1400086D826 /* back01.jpg */,
+				FBE132D31942D1400086D826 /* back02.jpg */,
+				FBE132D41942D1400086D826 /* back03.jpg */,
+			);
+			path = back;
+			sourceTree = "<group>";
+		};
+		FBE132D81942D1400086D826 /* takke */ = {
+			isa = PBXGroup;
+			children = (
+				FBE132D91942D1400086D826 /* takke1.png */,
+				FBE132DA1942D1400086D826 /* takke2.png */,
+				FBE132DB1942D1400086D826 /* takke3.png */,
+				FBE132DC1942D1400086D826 /* takke4.png */,
+			);
+			path = takke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +307,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = muratamuu;
 				TargetAttributes = {
+					FBE132751942CFE10086D826 = {
+						DevelopmentTeam = RMUS7G933D;
+					};
 					FBE132A01942CFE10086D826 = {
 						TestTargetID = FBE132751942CFE10086D826;
 					};
@@ -244,11 +339,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE1329A1942CFE10086D826 /* Spaceship.png in Resources */,
 				FBE1329C1942CFE10086D826 /* Images.xcassets in Resources */,
+				FBE132E51942D1400086D826 /* takke3.png in Resources */,
 				FBE132921942CFE10086D826 /* Main_iPad.storyboard in Resources */,
+				FBE132E01942D1400086D826 /* balloon.png in Resources */,
 				FBE1328F1942CFE10086D826 /* Main_iPhone.storyboard in Resources */,
 				FBE132861942CFE10086D826 /* InfoPlist.strings in Resources */,
+				FBE132E31942D1400086D826 /* takke1.png in Resources */,
+				FBE132DF1942D1400086D826 /* back03.jpg in Resources */,
+				FBE132E61942D1400086D826 /* takke4.png in Resources */,
+				FBE132DD1942D1400086D826 /* back01.jpg in Resources */,
+				FBE132DE1942D1400086D826 /* back02.jpg in Resources */,
+				FBE132E21942D1400086D826 /* star.atlas in Resources */,
+				FBE132E11942D1400086D826 /* sakura.gif in Resources */,
+				FBE132E41942D1400086D826 /* takke2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +371,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE132CE1942D1260086D826 /* TSStar.m in Sources */,
 				FBE132881942CFE10086D826 /* main.m in Sources */,
 				FBE132981942CFE10086D826 /* TSMyScene.m in Sources */,
+				FBE132C91942D1260086D826 /* TSBullet.m in Sources */,
 				FBE1328C1942CFE10086D826 /* TSAppDelegate.m in Sources */,
+				FBE132C81942D1260086D826 /* TSBalloon.m in Sources */,
+				FBE132CA1942D1260086D826 /* TSCommon.c in Sources */,
+				FBE132CF1942D1260086D826 /* TSTakke.m in Sources */,
+				FBE132CC1942D1260086D826 /* TSRetryButton.m in Sources */,
+				FBE132CD1942D1260086D826 /* TSShooter.m in Sources */,
+				FBE132CB1942D1260086D826 /* TSPatternShooter.m in Sources */,
 				FBE132951942CFE10086D826 /* TSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +474,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,7 +496,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -394,6 +508,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -405,10 +520,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "takkestar/takkestar-Prefix.pch";
 				INFOPLIST_FILE = "takkestar/takkestar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -419,10 +537,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "takkestar/takkestar-Prefix.pch";
 				INFOPLIST_FILE = "takkestar/takkestar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -487,6 +608,7 @@
 				FBE132B41942CFE10086D826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBE132B51942CFE10086D826 /* Build configuration list for PBXNativeTarget "takkestarTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +617,7 @@
 				FBE132B71942CFE10086D826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

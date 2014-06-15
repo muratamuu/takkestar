@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "TSTakke.h"
 
-@interface TSMyScene : SKScene
+@interface TSMyScene : SKScene <SKPhysicsContactDelegate>
+
+@property TSTakke *takke;
+- (void)scoreUp:(int)point;
 
 @end
