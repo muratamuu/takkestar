@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB885C6F1A519F1700A24E3E /* back01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB885C641A519F1700A24E3E /* back01.jpg */; };
+		FB885C701A519F1700A24E3E /* back02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB885C651A519F1700A24E3E /* back02.jpg */; };
+		FB885C711A519F1700A24E3E /* back03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB885C661A519F1700A24E3E /* back03.jpg */; };
+		FB885C721A519F1700A24E3E /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C671A519F1700A24E3E /* balloon.png */; };
+		FB885C731A519F1700A24E3E /* sakura.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB885C681A519F1700A24E3E /* sakura.gif */; };
+		FB885C741A519F1700A24E3E /* star.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FB885C691A519F1700A24E3E /* star.atlas */; };
+		FB885C751A519F1700A24E3E /* takke1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6B1A519F1700A24E3E /* takke1.png */; };
+		FB885C761A519F1700A24E3E /* takke2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6C1A519F1700A24E3E /* takke2.png */; };
+		FB885C771A519F1700A24E3E /* takke3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6D1A519F1700A24E3E /* takke3.png */; };
+		FB885C781A519F1700A24E3E /* takke4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6E1A519F1700A24E3E /* takke4.png */; };
 		FBC11EB41A5199FF006E76B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */; };
 		FBC11EB61A5199FF006E76B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EB51A5199FF006E76B7 /* GameScene.sks */; };
 		FBC11EB81A5199FF006E76B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB71A5199FF006E76B7 /* GameScene.swift */; };
@@ -28,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB885C641A519F1700A24E3E /* back01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back01.jpg; sourceTree = "<group>"; };
+		FB885C651A519F1700A24E3E /* back02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back02.jpg; sourceTree = "<group>"; };
+		FB885C661A519F1700A24E3E /* back03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back03.jpg; sourceTree = "<group>"; };
+		FB885C671A519F1700A24E3E /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		FB885C681A519F1700A24E3E /* sakura.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sakura.gif; sourceTree = "<group>"; };
+		FB885C691A519F1700A24E3E /* star.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = star.atlas; sourceTree = "<group>"; };
+		FB885C6B1A519F1700A24E3E /* takke1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke1.png; sourceTree = "<group>"; };
+		FB885C6C1A519F1700A24E3E /* takke2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke2.png; sourceTree = "<group>"; };
+		FB885C6D1A519F1700A24E3E /* takke3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke3.png; sourceTree = "<group>"; };
+		FB885C6E1A519F1700A24E3E /* takke4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke4.png; sourceTree = "<group>"; };
 		FBC11EAE1A5199FF006E76B7 /* takkestar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takkestar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC11EB21A5199FF006E76B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +80,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB885C621A519F1700A24E3E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FB885C631A519F1700A24E3E /* back */,
+				FB885C671A519F1700A24E3E /* balloon.png */,
+				FB885C681A519F1700A24E3E /* sakura.gif */,
+				FB885C691A519F1700A24E3E /* star.atlas */,
+				FB885C6A1A519F1700A24E3E /* takke */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		FB885C631A519F1700A24E3E /* back */ = {
+			isa = PBXGroup;
+			children = (
+				FB885C641A519F1700A24E3E /* back01.jpg */,
+				FB885C651A519F1700A24E3E /* back02.jpg */,
+				FB885C661A519F1700A24E3E /* back03.jpg */,
+			);
+			path = back;
+			sourceTree = "<group>";
+		};
+		FB885C6A1A519F1700A24E3E /* takke */ = {
+			isa = PBXGroup;
+			children = (
+				FB885C6B1A519F1700A24E3E /* takke1.png */,
+				FB885C6C1A519F1700A24E3E /* takke2.png */,
+				FB885C6D1A519F1700A24E3E /* takke3.png */,
+				FB885C6E1A519F1700A24E3E /* takke4.png */,
+			);
+			path = takke;
+			sourceTree = "<group>";
+		};
 		FBC11EA51A5199FF006E76B7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,7 @@
 		FBC11EB01A5199FF006E76B7 /* takkestar */ = {
 			isa = PBXGroup;
 			children = (
+				FB885C621A519F1700A24E3E /* data */,
 				FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */,
 				FBC11EB51A5199FF006E76B7 /* GameScene.sks */,
 				FBC11EB71A5199FF006E76B7 /* GameScene.swift */,
@@ -199,9 +253,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC11EC21A5199FF006E76B7 /* LaunchScreen.xib in Resources */,
+				FB885C781A519F1700A24E3E /* takke4.png in Resources */,
 				FBC11EBF1A5199FF006E76B7 /* Images.xcassets in Resources */,
 				FBC11EB61A5199FF006E76B7 /* GameScene.sks in Resources */,
 				FBC11EBD1A5199FF006E76B7 /* Main.storyboard in Resources */,
+				FB885C701A519F1700A24E3E /* back02.jpg in Resources */,
+				FB885C731A519F1700A24E3E /* sakura.gif in Resources */,
+				FB885C771A519F1700A24E3E /* takke3.png in Resources */,
+				FB885C721A519F1700A24E3E /* balloon.png in Resources */,
+				FB885C711A519F1700A24E3E /* back03.jpg in Resources */,
+				FB885C751A519F1700A24E3E /* takke1.png in Resources */,
+				FB885C6F1A519F1700A24E3E /* back01.jpg in Resources */,
+				FB885C741A519F1700A24E3E /* star.atlas in Resources */,
+				FB885C761A519F1700A24E3E /* takke2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +479,7 @@
 				FBC11ED31A5199FF006E76B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC11ED41A5199FF006E76B7 /* Build configuration list for PBXNativeTarget "takkestarTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +488,7 @@
 				FBC11ED61A5199FF006E76B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
