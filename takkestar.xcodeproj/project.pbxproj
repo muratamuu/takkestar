@@ -17,6 +17,7 @@
 		FB885C761A519F1700A24E3E /* takke2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6C1A519F1700A24E3E /* takke2.png */; };
 		FB885C771A519F1700A24E3E /* takke3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6D1A519F1700A24E3E /* takke3.png */; };
 		FB885C781A519F1700A24E3E /* takke4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6E1A519F1700A24E3E /* takke4.png */; };
+		FB885C7A1A51A33400A24E3E /* Takke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB885C791A51A33400A24E3E /* Takke.swift */; };
 		FBC11EB41A5199FF006E76B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */; };
 		FBC11EB61A5199FF006E76B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EB51A5199FF006E76B7 /* GameScene.sks */; };
 		FBC11EB81A5199FF006E76B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB71A5199FF006E76B7 /* GameScene.swift */; };
@@ -48,6 +49,7 @@
 		FB885C6C1A519F1700A24E3E /* takke2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke2.png; sourceTree = "<group>"; };
 		FB885C6D1A519F1700A24E3E /* takke3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke3.png; sourceTree = "<group>"; };
 		FB885C6E1A519F1700A24E3E /* takke4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takke4.png; sourceTree = "<group>"; };
+		FB885C791A51A33400A24E3E /* Takke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Takke.swift; sourceTree = "<group>"; };
 		FBC11EAE1A5199FF006E76B7 /* takkestar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takkestar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC11EB21A5199FF006E76B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				FBC11EBE1A5199FF006E76B7 /* Images.xcassets */,
 				FBC11EC01A5199FF006E76B7 /* LaunchScreen.xib */,
 				FBC11EB11A5199FF006E76B7 /* Supporting Files */,
+				FB885C791A51A33400A24E3E /* Takke.swift */,
 			);
 			path = takkestar;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				FBC11EB81A5199FF006E76B7 /* GameScene.swift in Sources */,
 				FBC11EBA1A5199FF006E76B7 /* GameViewController.swift in Sources */,
+				FB885C7A1A51A33400A24E3E /* Takke.swift in Sources */,
 				FBC11EB41A5199FF006E76B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
