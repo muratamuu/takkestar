@@ -9,6 +9,9 @@
 import SpriteKit
 
 class GameScene: SKScene {
+
+    var takke: Takke = Takke()
+
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
@@ -18,12 +21,17 @@ class GameScene: SKScene {
         
         addChild(myLabel)
 
-        addChild(Takke())
+        addChild(takke)
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        if let touch = touches.anyObject() as? UITouch {
+            let location = touch.locationInNode(self)
+            let star = Star(position: location, speed: 10, speedRate: 0, angle: 0, angleRate: 0, lifeTime: 10)
+            addChild(star)
+        }
     }
-   
+
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }

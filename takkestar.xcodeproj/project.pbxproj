@@ -19,13 +19,13 @@
 		FB885C781A519F1700A24E3E /* takke4.png in Resources */ = {isa = PBXBuildFile; fileRef = FB885C6E1A519F1700A24E3E /* takke4.png */; };
 		FB885C7A1A51A33400A24E3E /* Takke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB885C791A51A33400A24E3E /* Takke.swift */; };
 		FBC11EB41A5199FF006E76B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */; };
-		FBC11EB61A5199FF006E76B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EB51A5199FF006E76B7 /* GameScene.sks */; };
 		FBC11EB81A5199FF006E76B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB71A5199FF006E76B7 /* GameScene.swift */; };
 		FBC11EBA1A5199FF006E76B7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11EB91A5199FF006E76B7 /* GameViewController.swift */; };
 		FBC11EBD1A5199FF006E76B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EBB1A5199FF006E76B7 /* Main.storyboard */; };
 		FBC11EBF1A5199FF006E76B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EBE1A5199FF006E76B7 /* Images.xcassets */; };
 		FBC11EC21A5199FF006E76B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC11EC01A5199FF006E76B7 /* LaunchScreen.xib */; };
 		FBC11ECE1A5199FF006E76B7 /* takkestarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC11ECD1A5199FF006E76B7 /* takkestarTests.swift */; };
+		FBE4F5871A58286E00F8571F /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE4F5861A58286E00F8571F /* Star.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,6 @@
 		FBC11EAE1A5199FF006E76B7 /* takkestar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takkestar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC11EB21A5199FF006E76B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBC11EB51A5199FF006E76B7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FBC11EB71A5199FF006E76B7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FBC11EB91A5199FF006E76B7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FBC11EBC1A5199FF006E76B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		FBC11EC71A5199FF006E76B7 /* takkestarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takkestarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC11ECC1A5199FF006E76B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC11ECD1A5199FF006E76B7 /* takkestarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takkestarTests.swift; sourceTree = "<group>"; };
+		FBE4F5861A58286E00F8571F /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,6 @@
 			children = (
 				FB885C621A519F1700A24E3E /* data */,
 				FBC11EB31A5199FF006E76B7 /* AppDelegate.swift */,
-				FBC11EB51A5199FF006E76B7 /* GameScene.sks */,
 				FBC11EB71A5199FF006E76B7 /* GameScene.swift */,
 				FBC11EB91A5199FF006E76B7 /* GameViewController.swift */,
 				FBC11EBB1A5199FF006E76B7 /* Main.storyboard */,
@@ -146,6 +145,7 @@
 				FBC11EC01A5199FF006E76B7 /* LaunchScreen.xib */,
 				FBC11EB11A5199FF006E76B7 /* Supporting Files */,
 				FB885C791A51A33400A24E3E /* Takke.swift */,
+				FBE4F5861A58286E00F8571F /* Star.swift */,
 			);
 			path = takkestar;
 			sourceTree = "<group>";
@@ -258,7 +258,6 @@
 				FBC11EC21A5199FF006E76B7 /* LaunchScreen.xib in Resources */,
 				FB885C781A519F1700A24E3E /* takke4.png in Resources */,
 				FBC11EBF1A5199FF006E76B7 /* Images.xcassets in Resources */,
-				FBC11EB61A5199FF006E76B7 /* GameScene.sks in Resources */,
 				FBC11EBD1A5199FF006E76B7 /* Main.storyboard in Resources */,
 				FB885C701A519F1700A24E3E /* back02.jpg in Resources */,
 				FB885C731A519F1700A24E3E /* sakura.gif in Resources */,
@@ -289,6 +288,7 @@
 				FBC11EB81A5199FF006E76B7 /* GameScene.swift in Sources */,
 				FBC11EBA1A5199FF006E76B7 /* GameViewController.swift in Sources */,
 				FB885C7A1A51A33400A24E3E /* Takke.swift in Sources */,
+				FBE4F5871A58286E00F8571F /* Star.swift in Sources */,
 				FBC11EB41A5199FF006E76B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

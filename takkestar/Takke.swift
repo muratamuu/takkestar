@@ -8,12 +8,12 @@
 
 import SpriteKit
 
-let TEXTURE_WIDTH:CGFloat = 100
-let TEXTURE_HEIGHT:CGFloat = 100
-let INIT_POS_X:CGFloat = 0.5
-let INIT_POS_Y:CGFloat = 0.86
-let INIT_POS_Z:CGFloat = 0.6
-let textures = [SKTexture(imageNamed: "takke1"), SKTexture(imageNamed: "takke2"), SKTexture(imageNamed: "takke3"), SKTexture(imageNamed: "takke4")]
+private let TEXTURE_WIDTH:CGFloat = 100
+private let TEXTURE_HEIGHT:CGFloat = 100
+private let INIT_POS_X:CGFloat = 0.5
+private let INIT_POS_Y:CGFloat = 0.86
+private let INIT_POS_Z:CGFloat = 0.6
+private let textures = [SKTexture(imageNamed: "takke1"), SKTexture(imageNamed: "takke2"), SKTexture(imageNamed: "takke3"), SKTexture(imageNamed: "takke4")]
 
 class Takke: SKSpriteNode {
 
@@ -32,16 +32,16 @@ class Takke: SKSpriteNode {
 
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         if let touch = touches.anyObject() as? UITouch {
-            let location = touch.locationInView(touch.view)
+            let location = touch.locationInNode(scene!)
             dx = position.x - location.x;
-            dy = position.y - (scene!.size.height - location.y);
+            dy = position.y - location.y;
         }
     }
 
     override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
         if let touch = touches.anyObject() as? UITouch {
-            let location = touch.locationInView(touch.view)
-            position = CGPointMake(location.x + dx, (scene!.size.height - location.y) + dy)
+            let location = touch.locationInNode(scene!)
+            position = CGPointMake(location.x + dx, location.y + dy)
         }
     }
 }
